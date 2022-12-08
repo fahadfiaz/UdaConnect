@@ -22,7 +22,7 @@ To do so, ***I will refactor this application into a microservice architecture u
 ### Udaconnect Application Architecture
 The microservices architecture adopted to enhance the Udaconnect application into the [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) is shown below:
 
-![Udaconnect Architecture](docs/architecture_design.PNG)
+![Udaconnect Architecture](docs/architecture_design.png)
 
 ## Running the app
 The project has been set up such that you should be able to have the project up and running with Kubernetes.
