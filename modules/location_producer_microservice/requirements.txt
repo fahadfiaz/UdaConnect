@@ -1,0 +1,3 @@
+grpcio==1.47.2
+grpcio-tools==1.47.2
+kafka-python==2.0.2

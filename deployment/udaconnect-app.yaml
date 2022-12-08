@@ -31,7 +31,7 @@ spec:
         service: udaconnect-app
     spec:
       containers:
-      - image: diogosilverio/nd064-udaconnect-app:latest
+      - image: udacity/nd064-udaconnect-app:latest
         name: udaconnect-app
         imagePullPolicy: Always
         resources:
@@ -41,16 +41,4 @@ spec:
           limits:
             memory: "256Mi"
             cpu: "256m"
-        livenessProbe:
-          httpGet:
-            path: /
-            port: 3000
-          initialDelaySeconds: 120
-          periodSeconds: 5
-        readinessProbe:
-          httpGet:
-            path: /
-            port: 3000
-          initialDelaySeconds: 120
-          periodSeconds: 5
       restartPolicy: Always
